@@ -10,6 +10,8 @@ spring:
       bootstrap-servers: localhost:9092,localhost:9093,localhost:9094
       key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      properties:                                                                   #overriding the properties
+        retries: 10
     admin:                                                                                  #get all the server details from here kafka broker details
       properties:
         bootstrap.servers: localhost:9092,localhost:9093,localhost:9094

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.439s</div>
+<div class="counter">0.386s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#">Standard output</a>
 </li>
-<li>
-<a href="#">Standard error</a>
-</li>
 </ul>
 <div class="tab">
 <h2>Tests</h2>
@@ -82,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">postLibraryEvent()</td>
-<td class="success">0.406s</td>
+<td class="success">0.295s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">postLibraryEvent_InvalidValues()</td>
-<td class="success">0.033s</td>
+<td class="success">0.091s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -95,8 +92,8 @@
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>14:53:33.680 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.learnkafka.controller.LibraryEventsControllerTest]: LibraryEventsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:53:33.999 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.learnkafka.LibraryEventsProducerApplication for test class com.learnkafka.controller.LibraryEventsControllerTest
+<pre>2025-05-29T15:04:15.412+05:30  INFO 21572 --- [library-events-producer] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.learnkafka.controller.LibraryEventsControllerTest]: LibraryEventsControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-29T15:04:15.499+05:30  INFO 21572 --- [library-events-producer] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.learnkafka.LibraryEventsProducerApplication for test class com.learnkafka.controller.LibraryEventsControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -107,26 +104,15 @@
 
  :: Spring Boot ::                (v3.4.5)
 
-2025-05-26T14:53:34.604+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : Starting LibraryEventsControllerTest using Java 23.0.1 with PID 17444 (started by HS965NW in C:\Users\HS965NW\OneDrive - EY\Desktop\kafka-poc\library-events-producer)
-2025-05-26T14:53:34.605+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : The following 1 profile is active: &quot;local&quot;
-2025-05-26T14:53:37.124+05:30  INFO 17444 --- [library-events-producer] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-05-26T14:53:37.124+05:30  INFO 17444 --- [library-events-producer] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-05-26T14:53:37.127+05:30  INFO 17444 --- [library-events-producer] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-05-26T14:53:37.181+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : Started LibraryEventsControllerTest in 3.098 seconds (process running for 12.616)
-2025-05-26T14:53:37.569+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.controller.LibraryEventsController   : LibraryEvent: LibraryEvent[libraryEventId=null, libraryEventType=NEW, book=Book[bookId=123, bookName=Dilip, bookAuthor=Kafka Using Spring Boot]]
-2025-05-26T14:53:37.578+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.controller.LibraryEventsController   : LibraryEvent sent to Kafka topic
-2025-05-26T14:53:37.631+05:30  INFO 17444 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerAdvice      : ErrorMessage: book.bookId - must not be null, book.bookName - must not be blank
-</pre>
-</span>
-</div>
-<div class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
-WARNING: A Java agent has been loaded dynamically (C:\Users\HS965NW\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
+2025-05-29T15:04:15.609+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : Starting LibraryEventsControllerTest using Java 23.0.1 with PID 21572 (started by HS965NW in C:\Users\HS965NW\OneDrive - EY\Desktop\kafka-poc\library-events-producer)
+2025-05-29T15:04:15.610+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : The following 1 profile is active: &quot;local&quot;
+2025-05-29T15:04:16.633+05:30  INFO 21572 --- [library-events-producer] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-29T15:04:16.634+05:30  INFO 21572 --- [library-events-producer] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-29T15:04:16.636+05:30  INFO 21572 --- [library-events-producer] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-05-29T15:04:16.692+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerTest        : Started LibraryEventsControllerTest in 1.169 seconds (process running for 31.388)
+2025-05-29T15:04:16.932+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.controller.LibraryEventsController   : LibraryEvent: LibraryEvent[libraryEventId=null, libraryEventType=NEW, book=Book[bookId=123, bookName=Dilip, bookAuthor=Kafka Using Spring Boot]]
+2025-05-29T15:04:16.939+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.controller.LibraryEventsController   : LibraryEvent sent to Kafka topic
+2025-05-29T15:04:17.079+05:30  INFO 21572 --- [library-events-producer] [    Test worker] c.l.c.LibraryEventsControllerAdvice      : ErrorMessage: book.bookId - must not be null, book.bookName - must not be blank
 </pre>
 </span>
 </div>
@@ -138,7 +124,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 26 May 2025, 2:53:37 pm</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 29 May 2025, 3:04:18 pm</p>
 </div>
 </div>
 </body>

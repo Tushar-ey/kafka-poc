@@ -25,6 +25,7 @@ public class LibraryEventsConsumerConfig {
         ConcurrentKafkaListenerContainerFactory<Object, Object> factory = new ConcurrentKafkaListenerContainerFactory<>();
         configurer.configure(factory, kafkaConsumerFactory.getIfAvailable());
        //factory.getContainerProperties().setAckMode(ContainerProperties.AckMode.MANUAL);   // used to set the AckMode to MANUAL
+       factory.setConcurrency(3);   //scale the consumer parellely process the records this is recommnded only when application not in cloud environnment
         return factory;
     }
 

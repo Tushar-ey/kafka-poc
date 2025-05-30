@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee9db33-091e-4d0a-819f-8b85bb27ee79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/consumer/LibraryEventsConsumerManualOffset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library-events-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../library-events-consumer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library-events-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../library-events-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose-multi-broker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose-multi-broker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/config/LibraryEventsConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/config/LibraryEventsConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/consumer/LibraryEventsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/consumer/LibraryEventsConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-events-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../library-events-consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/learnkafka/controller/LibraryEventsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/learnkafka/controller/LibraryEventsControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.learnkafka.controller.LibraryEventsControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.learnkafka.controller.LibraryEventsControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.learnkafka.controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.learnkafka.controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.learnkafka.controller.LibraryEventsControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.learnkafka.controller.LibraryEventsControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/LibraryEventsControllerTest.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/LibraryEventsControllerTest.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +67,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -85,29 +97,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build library-events-producer.executor": "Run",
-    "Gradle.LibraryEventsControllerIntegrationTest.executor": "Run",
-    "Gradle.LibraryEventsControllerTest.executor": "Run",
-    "Gradle.library-events-consumer [:com.learnkafka.LibraryEventsConsumerApplication.main()].executor": "Run",
-    "Gradle.library-events-producer [:com.learnkafka.LibraryEventsProducerApplication.main()].executor": "Run",
-    "Gradle.library-events-producer [build].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/HS965NW/OneDrive - EY/Desktop/kafka-poc/library-events-producer/src/test/java/unit/com/learnkafka/controller",
-    "last_opened_file_path": "C:/Users/HS965NW/OneDrive - EY/Desktop/kafka-poc/library-events-consumer",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build library-events-producer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryEventsConsumerIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryEventsControllerIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryEventsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'library-events-producer'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.library-events-consumer [:com.learnkafka.LibraryEventsConsumerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.library-events-producer [:com.learnkafka.LibraryEventsProducerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.library-events-producer [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/HS965NW/OneDrive - EY/Desktop/kafka-poc/library-events-producer/src/test/java/unit/com/learnkafka/controller&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HS965NW/OneDrive - EY/Desktop/kafka-poc/library-events-consumer&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learnkafka.entity" />
       <recent name="com.learnkafka.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -126,7 +141,7 @@
       <command value="gradlew build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LibraryEventsConsumerApplication">
+  <component name="RunManager" selected="Gradle.LibraryEventsConsumerIntegrationTest">
     <configuration name="LibraryEventsConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learnkafka.LibraryEventsConsumerApplication" />
       <module name="library-events-consumer.main" />
@@ -140,18 +155,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryEventsProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learnkafka.LibraryEventsProducerApplication" />
-      <module name="library-events-producer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learnkafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="LibraryEventsConsumerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../library-events-consumer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.learnkafka.consumer.LibraryEventsConsumerIntegrationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="LibraryEventsControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -201,7 +227,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="library-events-producer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'library-events-producer'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -212,24 +238,24 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryEventsConsumerIntegrationTest" />
+        <item itemvalue="Gradle.Tests in 'library-events-producer'" />
         <item itemvalue="Application.LibraryEventsConsumerApplication" />
         <item itemvalue="Gradle.LibraryEventsControllerTest" />
         <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest" />
-        <item itemvalue="Application.LibraryEventsProducerApplication" />
-        <item itemvalue="Gradle.library-events-producer [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -243,5 +269,16 @@
       <updated>1747846580738</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../library-events-consumer/src/main/java/com/learnkafka/consumer/LibraryEventsConsumer.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
